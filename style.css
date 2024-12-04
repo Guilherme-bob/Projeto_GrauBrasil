@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#00000070, #000),url('https://images.sftcdn.net/images/t_app-cover-m,f_auto/p/9b01bfac-6739-46d4-a0ef-758d39a4f6cb/4111011236/grau-brasil-screenshot');
+    background-size: contain;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: rgb(255, 255, 255)
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0000000a;
+    padding: 0.5rem 1rem;
+}
+
+header img{
+    width: 4rem;
+    border-radius: 50%;
+    max-width: 20rem;
+}
+header a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: #f80000;
+}
+
+main{
+    display: flex;
+    padding: 0.5rem;
+    gap: 1rem;
+    height: 80vh;
+}
+
+main img{
+    width: 40%;
+    border-radius: 8px;
+
+}
+
+section h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: impact;
+    text-shadow: 2px 2px black;
+}
+
+section h2{
+    color: #f1c040;
+    text-shadow: 2px 2px black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-indent: 5%;
+    background-color: #0000002f;
+    border-radius: 8px;
+
+}
+
+section a{
+    background: #f1c040;
+    padding: 0.5rem 1rem;
+    width: 8rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 1rem auto;
+    color: #000;
+}
+
+section a:hover{
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    border-radius: 8px;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a{
+    width:"10%";
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+footer a:hover{
+    color: red;
+}
